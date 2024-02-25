@@ -3,3 +3,7 @@
 out
 gen
 *.csv
+
+# Another files
+.DS_Store
+.Rproj.user

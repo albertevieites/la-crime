@@ -62,6 +62,22 @@ The project's analytical framework is designed to unveil crime trends and spatia
 3. **Descriptive Analysis**:
    - Perform a detailed examination of the types of crimes, victim demographics, and the circumstances under which crimes occur.
    - Identify and interpret patterns related to crime types, victim age, sex, and descent.
+   - Implement dynamic time-filtering in the Tableau dashboard using calculated fields to allow stakeholders to explore crime trends by hours, months, and years. The time-filtering functionality will be established using the following calculated fields:
+     ```tableau
+     CASE [Time Filter]
+       WHEN 'Hours' THEN DATEPART('hour', [Time Crime Occurrence])
+       WHEN 'Months' THEN DATEPART('month', [Date Crime Occurrence])
+       WHEN 'Years' THEN DATEPART('year', [Date Crime Occurrence])
+     END
+     ```
+     And for axis labeling to reflect the selected time frame appropriately:
+     ```tableau
+     CASE [Time Filter]
+       WHEN 'Hours' THEN STR(DATEPART('hour', [Time Crime Occurrence])) + ':00'
+       WHEN 'Months' THEN DATENAME('month', [Date Crime Occurrence])
+       WHEN 'Years' THEN STR(DATEPART('year', [Date Crime Occurrence]))
+     END
+     ```
 
 4. **Data Visualization and Dashboard Development**:
    - Design a Tableau dashboard to dynamically represent the analytical findings, allowing stakeholders to interact with the data through various lenses.

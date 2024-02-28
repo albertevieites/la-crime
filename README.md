@@ -1,6 +1,6 @@
 # LA Crime
 
-![Dashboard](assets/dashboard.png)
+![Dashboard](assets/la-dashboard.png)
 
 This project aims to analyze and visualize crime data in Los Angeles from the year 2020 onwards. Utilizing public data, we seek to uncover trends, patterns, and insights into the nature of crime in the city, with the goal of contributing to informed community and policy responses.
 

@@ -2,10 +2,7 @@
 
 ![Dashboard](assets/la-dashboard.png)
 
-This project aims to analyze and visualize crime data in Los Angeles from the year 2020 onwards. Utilizing public data, we seek to uncover trends, patterns, and insights into the nature of crime in the city, with the goal of contributing to informed community and policy responses.
-
-## Data Source
-The analysis is based on the "Crime Data from 2020 to Present" dataset available from the Los Angeles Open Data Portal. This dataset includes detailed records of reported crimes, including the type of crime, location, date, and time.
+In this project, I aim to analyze and visualize crime data in Los Angeles from the year 2020 onwards, leveraging the power of **Tableau** for insightful and interactive data visualizations. By utilizing public data, I seek to uncover trends, patterns, and insights into the nature of crime in the city. My goal is to contribute to informed community and policy responses by providing a comprehensive and accessible view of crime dynamics through Tableau dashboards. This allows stakeholders to explore the data in a user-friendly format, facilitating a deeper understanding and fostering a proactive approach to crime prevention and policymaking.
 
 ## Data Source
 

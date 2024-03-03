@@ -1,4 +1,4 @@
-# LA Crime
+# L.A. Crime
 
 ![Dashboard](assets/dashboard.png)
 
